@@ -1,5 +1,5 @@
 {
-  "name": "betterapp/laravel-db-encrypter",
+  "name": "abbasbkz/laravel-db-encrypter",
   "description": "Provides database model attribute encryption/decryption",
   "keywords": [
     "attribute",
@@ -21,12 +21,14 @@
     "laravel model encryption",
     "laravel model encrypter",
     "laravel attribute encrypter",
+    "laravel mongodb attribute encrypter",
+    "mongodb",
     "laravel attribute encryption"
   ],
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "betterapp\\LaravelDbEncrypter\\": "src/"
+      "abbasbkz\\LaravelDbEncrypter\\": "src/"
     }
   },
   "authors": [
@@ -39,7 +41,8 @@
   ],
   "require": {
     "php": ">=7.1",
-    "laravel/framework": "^6.0|^7.0|^8.0"
+    "laravel/framework": "^6.0|^7.0|^8.0|^9.0|9.*",
+    "jenssegers/mongodb": ">=3.7"
   },
   "minimum-stability": "stable"
 }
