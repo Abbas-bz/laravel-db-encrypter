@@ -1,6 +1,6 @@
 <?php
 
-namespace payamweber\LaravelDbEncrypter\Traits;
+namespace abbasbkz\LaravelDbEncrypter\Traits;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Contracts\Encryption\EncryptException;
